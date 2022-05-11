@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background: rgb(10, 255, 153);
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
+.container{
+   height: 500px;
+   width: 500px;
+  background: rgb(0, 0, 0);
+  padding: 10px 20px;
+  display: flex;
+ align-items: center;
+ color: white;
+ 
+}
+.Student{
+   color: rgb(10, 255, 153);;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+   
+}
+.sp{
+    justify-content: space-evenly;
+}
+.Stduent_data{
+    padding: 20px 94px ;
+    margin: 20px;
+}
+label {
+  display: flex;
+  
+  text-align: right;
+  
+  margin-top: 20px;
+ 
+  
+}
+.hgel{
+    display: flex;
+    color: rgb(163, 201, 61);
+    flex-direction: column;
+}
+
+input {
+  height: 20px;
+  flex: 0 0 200px;
+  margin-left: 10px;
+  justify-content: space-between;
+}
+button{
+    
+    margin-top: 20px;
+    display: flex;
+    margin-left: 10px;
+}
